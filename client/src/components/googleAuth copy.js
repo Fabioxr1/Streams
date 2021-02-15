@@ -1,7 +1,7 @@
 import React from "react";
 
-const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY_AUTH = '100';
-;
+const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY_AUTH;
+
 
 class GoogleAuth extends React.Component {
   state = { isSignedIn: null };
